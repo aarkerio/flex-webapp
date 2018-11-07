@@ -1,0 +1,22 @@
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 0.978 seconds.[0m
+[36m----  Could not Analyze  src/cljs/flex_webapp/core.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or JavaScript source providing "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[31mFailed to compile build :app from ["src/cljs" "src/cljc" "env/dev/cljs"] in 1.094 seconds.[0m
+[36m----  Could not Analyze  src/cljs/flex_webapp/core.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or JavaScript source providing "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 3.543 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/flex_webapp/core.js
+Compiling build :app to "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...
+[32mSuccessfully compiled build :app to "target/cljsbuild/public/js/app.js" in 2.76 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/flex_webapp/core.js

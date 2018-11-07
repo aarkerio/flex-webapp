@@ -1,38 +1,49 @@
 (ns flex-webapp.core
-  (:require [clojure.tools.logging :as log]
-            [compojure.route :refer [files not-found]]
-            [compojure.handler :as handler] ; form, query params decode; cookie; session, etc
-            [compojure.core :refer [defroutes GET POST DELETE ANY context]]
-            [flex-webapp.api.v1.display :as api]
-            [flex-webapp.hiccup.layout-view :as layout]
-            [flex-webapp.hiccup.page-view :as page-view]
-            [org.httpkit.server :as s]
-            [ring.middleware.defaults :refer [site-defaults wrap-defaults]]
-            [ring.middleware.json :as middleware]
-            [ring.middleware.reload :as reload])
+  (:require [flex-webapp.handler :as handler]
+            [flex-webapp.nrepl :as nrepl]
+            [luminus.http-server :as http]
+            [flex-webapp.config :refer [env]]
+            [clojure.tools.cli :refer [parse-opts]]
+            [clojure.tools.logging :as log]
+            [mount.core :as mount])
   (:gen-class))
 
-(defonce server (atom nil))
+(def cli-options
+  [["-p" "--port PORT" "Port number"
+    :parse-fn #(Integer/parseInt %)]])
 
-(defn index [req]
-  (layout/application {:title "Index" :contents (page-view/scramble-form) }))
+(mount/defstate ^{:on-reload :noop} http-server
+  :start
+  (http/start
+    (-> env
+        (assoc  :handler #'handler/app)
+        (update :io-threads #(or % (* 2 (.availableProcessors (Runtime/getRuntime)))))
+        (update :port #(or (-> env :options :port) %))))
+  :stop
+  (http/stop http-server))
 
-(defroutes all-routes
-  (GET "/" [] index)
-  (POST "/api/v1/check" request (api/check request))
-  (files "/static/") ;; static file url prefix /static, in `public` folder
-  (not-found "<p>Page not found.</p>")) ;; all other, return 404
+(mount/defstate ^{:on-reload :noop} repl-server
+  :start
+  (when (env :nrepl-port)
+    (nrepl/start {:bind (env :nrepl-bind)
+                  :port (env :nrepl-port)}))
+  :stop
+  (when repl-server
+    (nrepl/stop repl-server)))
 
-(def app
-  (-> (reload/wrap-reload (handler/site #'all-routes))
-      (middleware/wrap-json-body {:keywords? true})
-      middleware/wrap-json-response))
+
+(defn stop-app []
+  (doseq [component (:stopped (mount/stop))]
+    (log/info component "stopped"))
+  (shutdown-agents))
+
+(defn start-app [args]
+  (doseq [component (-> args
+                        (parse-opts cli-options)
+                        mount/start-with-args
+                        :started)]
+    (log/info component "started"))
+  (.addShutdownHook (Runtime/getRuntime) (Thread. stop-app)))
 
 (defn -main [& args]
-  ;; The #' is useful when you want to hot-reload code
-  ;; You may want to take a look: https://github.com/clojure/tools.namespace
-  ;; and http://http-kit.org/migration.html#reload
-  (log/info " >>>>> Launching!!")
-  (reset! server (s/run-server app {:port 8080})))
-
-
+  (start-app args))

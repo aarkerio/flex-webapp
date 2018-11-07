@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Welcome to flex-webapp</title>
+  </head>
+  <body>
+    <div id="navbar" style="background-color:#33cc33; color: #33cc33; border-bottom: 6px solid gray;"> Welcome to flex-webapp</div>
+    <div id="app">
+      <div class="container-fluid">
+        <div class="card-deck">
+          <div class="card-block" style="padding:20px;margin:30px;">
+            <h4>Welcome to flex-webapp</h4>
+            <br>
+            <p class="login-form-group">
+              <input id="str1" maxlength="100" name="First String" placeholder="First String" size="80" type="text">
+            </p>
+            <p class="login-form-group">
+              <input id="str2" maxlength="100" name="Second String" placeholder="Second String" size="80" type="text">
+            </p>
+              <br>
+              <p class="login-form-group"><input id="button-chk" name="submit" type="submit" value="Check"></p>
+              <br>
+              <div id="display-message"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts and styles -->
+    {% style "/assets/bootstrap/css/bootstrap.min.css" %}
+    {% style "/assets/font-awesome/css/all.css" %}
+    {% style "/css/screen.css" %}
+
+    {% script "/assets/jquery/jquery.min.js" %}
+    {% script "/assets/font-awesome/js/all.js" %}
+    {% script "/assets/tether/dist/js/tether.min.js" %}
+    {% script "/assets/bootstrap/js/bootstrap.min.js" %}
+
+    <script type="text/javascript">
+        var csrfToken = "{{csrf-token}}";
+    </script>
+    {% script "/js/app.js" %}
+  </body>
+</html>

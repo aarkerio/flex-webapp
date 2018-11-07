@@ -1,0 +1,141 @@
+2018-11-06 20:09:43,453 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-06 20:09:49,723 [main] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-06 20:09:50,070 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2018-11-06 20:09:50,266 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@20cbfa82 
+2018-11-06 20:09:50,318 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2018-11-06 20:09:50,661 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2018-11-06 20:09:50,800 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2018-11-06 20:09:50,803 [main] INFO  flex-webapp.nrepl - starting nREPL server on port 7000 
+2018-11-06 20:09:50,872 [main] INFO  flex-webapp.core - #'flex-webapp.config/env started 
+2018-11-06 20:09:50,873 [main] INFO  flex-webapp.core - #'flex-webapp.handler/init-app started 
+2018-11-06 20:09:50,873 [main] INFO  flex-webapp.core - #'flex-webapp.handler/app started 
+2018-11-06 20:09:50,874 [main] INFO  flex-webapp.core - #'flex-webapp.core/http-server started 
+2018-11-06 20:09:50,874 [main] INFO  flex-webapp.core - #'flex-webapp.core/repl-server started 
+2018-11-06 20:11:27,621 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-06 20:15:55,654 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-06 20:24:47,202 [Thread-2] INFO  flex-webapp.nrepl - nREPL server stopped 
+2018-11-06 20:24:47,205 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-320619489, ignoring options. 
+2018-11-06 20:24:47,212 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@20cbfa82 
+2018-11-06 20:24:47,220 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2018-11-06 20:24:47,223 [Thread-2] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-06 20:24:47,226 [Thread-2] INFO  flex-webapp.core - #'flex-webapp.core/repl-server stopped 
+2018-11-06 20:24:47,227 [Thread-2] INFO  flex-webapp.core - #'flex-webapp.core/http-server stopped 
+2018-11-06 20:24:47,227 [Thread-2] INFO  flex-webapp.core - #'flex-webapp.handler/init-app stopped 
+2018-11-06 20:30:56,791 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-06 20:31:03,362 [main] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-06 20:31:03,706 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2018-11-06 20:31:03,855 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@65b4d3f0 
+2018-11-06 20:31:03,899 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2018-11-06 20:31:04,314 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2018-11-06 20:31:04,461 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2018-11-06 20:31:04,464 [main] INFO  flex-webapp.nrepl - starting nREPL server on port 7000 
+2018-11-06 20:31:04,524 [main] INFO  flex-webapp.core - #'flex-webapp.config/env started 
+2018-11-06 20:31:04,526 [main] INFO  flex-webapp.core - #'flex-webapp.handler/init-app started 
+2018-11-06 20:31:04,527 [main] INFO  flex-webapp.core - #'flex-webapp.handler/app started 
+2018-11-06 20:31:04,527 [main] INFO  flex-webapp.core - #'flex-webapp.core/http-server started 
+2018-11-06 20:31:04,527 [main] INFO  flex-webapp.core - #'flex-webapp.core/repl-server started 
+2018-11-06 20:33:25,513 [Thread-2] INFO  flex-webapp.nrepl - nREPL server stopped 
+2018-11-06 20:33:25,516 [Thread-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:484282908, ignoring options. 
+2018-11-06 20:33:25,522 [Thread-2] DEBUG io.undertow - stopping undertow server io.undertow.Undertow@65b4d3f0 
+2018-11-06 20:33:25,539 [Thread-2] INFO  luminus.http-server - HTTP server stopped 
+2018-11-06 20:33:25,541 [Thread-2] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-06 20:33:25,544 [Thread-2] INFO  flex-webapp.core - #'flex-webapp.core/repl-server stopped 
+2018-11-06 20:33:25,545 [Thread-2] INFO  flex-webapp.core - #'flex-webapp.core/http-server stopped 
+2018-11-06 20:33:25,545 [Thread-2] INFO  flex-webapp.core - #'flex-webapp.handler/init-app stopped 
+2018-11-06 20:34:38,467 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-06 20:34:45,341 [main] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-06 20:34:45,745 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2018-11-06 20:34:45,890 [main] DEBUG io.undertow - starting undertow server io.undertow.Undertow@a9110d8 
+2018-11-06 20:34:45,932 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2018-11-06 20:34:46,258 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2018-11-06 20:34:46,377 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2018-11-06 20:34:46,381 [main] INFO  flex-webapp.nrepl - starting nREPL server on port 7000 
+2018-11-06 20:34:46,434 [main] INFO  flex-webapp.core - #'flex-webapp.config/env started 
+2018-11-06 20:34:46,435 [main] INFO  flex-webapp.core - #'flex-webapp.handler/init-app started 
+2018-11-06 20:34:46,435 [main] INFO  flex-webapp.core - #'flex-webapp.handler/app started 
+2018-11-06 20:34:46,435 [main] INFO  flex-webapp.core - #'flex-webapp.core/http-server started 
+2018-11-06 20:34:46,435 [main] INFO  flex-webapp.core - #'flex-webapp.core/repl-server started 
+2018-11-06 20:35:05,790 [XNIO-1 task-30] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:ssl-client-cert nil, :cookies {"JSESSIONID" {:value "_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn"}}, :remote-addr "127.0.0.1", :params {:str1 "", :str2 ""}, :flash nil, :handler-type :undertow, :body-params {:str1 "", :str2 ""}, :route-handler #object[compojure.core$wrap_response$fn__34097 0x5d3d9f24 "compojure.core$wrap_response$fn__34097@5d3d9f24"], :route-params {}, :headers {"origin" "http://0.0.0.0:3000", "host" "0.0.0.0:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36", "content-type" "application/transit+json", "cookie" "JSESSIONID=_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn", "content-length" "30", "referer" "http://0.0.0.0:3000/", "connection" "keep-alive", "accept" "application/transit+json, application/transit+transit, application/json, text/plain, text/html, */*", "accept-language" "en-GB,en;q=0.9,en-US;q=0.8,de;q=0.7,es;q=0.6,fr;q=0.5,it;q=0.4,nl;q=0.3,pt;q=0.2,ru;q=0.1,en-CA;q=0.1", "accept-encoding" "gzip, deflate"}, :server-port 3000, :muuntaja/request #FormatAndCharset{:format "application/transit+json", :charset "utf-8", :raw-format "application/transit+json"}, :content-length 30, :form-params {}, :compojure/route [:post "/api/v1/check"], :server-exchange #object[io.undertow.server.HttpServerExchange 0x49e618d0 "HttpServerExchange{ POST /api/v1/check request {Accept=[application/transit+json, application/transit+transit, application/json, text/plain, text/html, */*], Accept-Language=[en-GB,en;q=0.9,en-US;q=0.8,de;q=0.7,es;q=0.6,fr;q=0.5,it;q=0.4,nl;q=0.3,pt;q=0.2,ru;q=0.1,en-CA;q=0.1], Accept-Encoding=[gzip, deflate], Origin=[http://0.0.0.0:3000], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36], Connection=[keep-alive], Content-Length=[30], Content-Type=[application/transit+json], Cookie=[JSESSIONID=_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn], Referer=[http://0.0.0.0:3000/], Host=[0.0.0.0:3000]} response {Server=[undertow]}}"], :query-params {}, :content-type "application/transit+json", :path-info "/api/v1/check", :character-encoding "ISO-8859-1", :context "", :uri "/api/v1/check", :server-name "0.0.0.0", :query-string nil, :muuntaja/response #FormatAndCharset{:format "application/transit+json", :charset "utf-8", :raw-format "application/transit+json"}, :body #object[io.undertow.io.UndertowInputStream 0x5404e81 "io.undertow.io.UndertowInputStream@5404e81"], :multipart-params {}, :scheme :http, :request-method :post, :route-middleware #object[clojure.core$comp$fn__5529 0x20c79403 "clojure.core$comp$fn__5529@20c79403"], :session nil} 
+2018-11-06 20:35:05,843 [XNIO-1 task-30] ERROR io.undertow.request - UT005071: Undertow request failed HttpServerExchange{ POST /api/v1/check request {Accept=[application/transit+json, application/transit+transit, application/json, text/plain, text/html, */*], Accept-Language=[en-GB,en;q=0.9,en-US;q=0.8,de;q=0.7,es;q=0.6,fr;q=0.5,it;q=0.4,nl;q=0.3,pt;q=0.2,ru;q=0.1,en-CA;q=0.1], Accept-Encoding=[gzip, deflate], Origin=[http://0.0.0.0:3000], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36], Connection=[keep-alive], Content-Length=[30], Content-Type=[application/transit+json], Cookie=[JSESSIONID=_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn], Referer=[http://0.0.0.0:3000/], Host=[0.0.0.0:3000]} response {Server=[undertow], X-XSS-Protection=[1; mode=block], X-Content-Type-Options=[nosniff], X-Frame-Options=[SAMEORIGIN], Content-Type=[application/octet-stream]}} 
+java.lang.IllegalStateException: Can't coerce body of type class java.lang.Boolean
+	at immutant.web.internal.ring$eval30477$fn__30478.invoke(ring.clj:120) ~[na:na]
+	at clojure.lang.MultiFn.invoke(MultiFn.java:238) ~[clojure-1.9.0.jar:na]
+	at immutant.web.internal.undertow$eval35350$fn__35388$action__35389.invoke(undertow.clj:159) ~[na:na]
+	at immutant.web.internal.undertow$eval35350$fn__35388.invoke(undertow.clj:172) ~[na:na]
+	at immutant.web.internal.ring$eval30413$fn__30436$G__30402__30447.invoke(ring.clj:106) ~[na:na]
+	at immutant.web.internal.ring$write_response.invokeStatic(ring.clj:164) ~[na:na]
+	at immutant.web.internal.ring$write_response.invoke(ring.clj:157) ~[na:na]
+	at immutant.web.internal.undertow$create_http_handler$reify__35428$fn__35429.invoke(undertow.clj:241) ~[na:na]
+	at immutant.web.internal.ring$handle_write_error.invokeStatic(ring.clj:155) ~[na:na]
+	at immutant.web.internal.ring$handle_write_error.invoke(ring.clj:142) ~[na:na]
+	at immutant.web.internal.undertow$create_http_handler$reify__35428.handleRequest(undertow.clj:240) ~[na:na]
+	at org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:109) ~[wunderboss-web-undertow-0.13.1.jar:na]
+	at io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:211) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:809) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_181]
+2018-11-06 20:35:29,211 [XNIO-1 task-2] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:ssl-client-cert nil, :cookies {"JSESSIONID" {:value "_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn"}}, :remote-addr "127.0.0.1", :params {:str1 "345345345", :str2 "345345345"}, :flash nil, :handler-type :undertow, :body-params {:str1 "345345345", :str2 "345345345"}, :route-handler #object[compojure.core$wrap_response$fn__34097 0x5d3d9f24 "compojure.core$wrap_response$fn__34097@5d3d9f24"], :route-params {}, :headers {"origin" "http://0.0.0.0:3000", "host" "0.0.0.0:3000", "user-agent" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36", "content-type" "application/transit+json", "cookie" "JSESSIONID=_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn", "content-length" "48", "referer" "http://0.0.0.0:3000/", "connection" "keep-alive", "accept" "application/transit+json, application/transit+transit, application/json, text/plain, text/html, */*", "accept-language" "en-GB,en;q=0.9,en-US;q=0.8,de;q=0.7,es;q=0.6,fr;q=0.5,it;q=0.4,nl;q=0.3,pt;q=0.2,ru;q=0.1,en-CA;q=0.1", "accept-encoding" "gzip, deflate"}, :server-port 3000, :muuntaja/request #FormatAndCharset{:format "application/transit+json", :charset "utf-8", :raw-format "application/transit+json"}, :content-length 48, :form-params {}, :compojure/route [:post "/api/v1/check"], :server-exchange #object[io.undertow.server.HttpServerExchange 0x419a6e39 "HttpServerExchange{ POST /api/v1/check request {Accept=[application/transit+json, application/transit+transit, application/json, text/plain, text/html, */*], Accept-Language=[en-GB,en;q=0.9,en-US;q=0.8,de;q=0.7,es;q=0.6,fr;q=0.5,it;q=0.4,nl;q=0.3,pt;q=0.2,ru;q=0.1,en-CA;q=0.1], Accept-Encoding=[gzip, deflate], Origin=[http://0.0.0.0:3000], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36], Connection=[keep-alive], Content-Length=[48], Content-Type=[application/transit+json], Cookie=[JSESSIONID=_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn], Referer=[http://0.0.0.0:3000/], Host=[0.0.0.0:3000]} response {Server=[undertow]}}"], :query-params {}, :content-type "application/transit+json", :path-info "/api/v1/check", :character-encoding "ISO-8859-1", :context "", :uri "/api/v1/check", :server-name "0.0.0.0", :query-string nil, :muuntaja/response #FormatAndCharset{:format "application/transit+json", :charset "utf-8", :raw-format "application/transit+json"}, :body #object[io.undertow.io.UndertowInputStream 0x498e86e "io.undertow.io.UndertowInputStream@498e86e"], :multipart-params {}, :scheme :http, :request-method :post, :route-middleware #object[clojure.core$comp$fn__5529 0x5f0bedf9 "clojure.core$comp$fn__5529@5f0bedf9"], :session nil} 
+2018-11-06 20:35:29,247 [XNIO-1 task-2] ERROR io.undertow.request - UT005071: Undertow request failed HttpServerExchange{ POST /api/v1/check request {Accept=[application/transit+json, application/transit+transit, application/json, text/plain, text/html, */*], Accept-Language=[en-GB,en;q=0.9,en-US;q=0.8,de;q=0.7,es;q=0.6,fr;q=0.5,it;q=0.4,nl;q=0.3,pt;q=0.2,ru;q=0.1,en-CA;q=0.1], Accept-Encoding=[gzip, deflate], Origin=[http://0.0.0.0:3000], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36], Connection=[keep-alive], Content-Length=[48], Content-Type=[application/transit+json], Cookie=[JSESSIONID=_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn], Referer=[http://0.0.0.0:3000/], Host=[0.0.0.0:3000]} response {Server=[undertow], X-XSS-Protection=[1; mode=block], X-Content-Type-Options=[nosniff], X-Frame-Options=[SAMEORIGIN], Content-Type=[application/octet-stream]}} 
+java.lang.IllegalStateException: Can't coerce body of type class java.lang.Boolean
+	at immutant.web.internal.ring$eval30477$fn__30478.invoke(ring.clj:120) ~[na:na]
+	at clojure.lang.MultiFn.invoke(MultiFn.java:238) ~[clojure-1.9.0.jar:na]
+	at immutant.web.internal.undertow$eval35350$fn__35388$action__35389.invoke(undertow.clj:159) ~[na:na]
+	at immutant.web.internal.undertow$eval35350$fn__35388.invoke(undertow.clj:172) ~[na:na]
+	at immutant.web.internal.ring$eval30413$fn__30436$G__30402__30447.invoke(ring.clj:106) ~[na:na]
+	at immutant.web.internal.ring$write_response.invokeStatic(ring.clj:164) ~[na:na]
+	at immutant.web.internal.ring$write_response.invoke(ring.clj:157) ~[na:na]
+	at immutant.web.internal.undertow$create_http_handler$reify__35428$fn__35429.invoke(undertow.clj:241) ~[na:na]
+	at immutant.web.internal.ring$handle_write_error.invokeStatic(ring.clj:155) ~[na:na]
+	at immutant.web.internal.ring$handle_write_error.invoke(ring.clj:142) ~[na:na]
+	at immutant.web.internal.undertow$create_http_handler$reify__35428.handleRequest(undertow.clj:240) ~[na:na]
+	at org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:109) ~[wunderboss-web-undertow-0.13.1.jar:na]
+	at io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:211) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:809) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_181]
+2018-11-06 20:36:51,142 [XNIO-1 task-27] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-06 20:36:51,144 [XNIO-1 task-27] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-06 20:36:51,326 [XNIO-1 task-27] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "erdfh", :str2 "fghhg"} 
+2018-11-06 20:36:51,378 [XNIO-1 task-27] ERROR io.undertow.request - UT005071: Undertow request failed HttpServerExchange{ POST /api/v1/check request {Accept=[application/transit+json, application/transit+transit, application/json, text/plain, text/html, */*], Accept-Language=[en-GB,en;q=0.9,en-US;q=0.8,de;q=0.7,es;q=0.6,fr;q=0.5,it;q=0.4,nl;q=0.3,pt;q=0.2,ru;q=0.1,en-CA;q=0.1], Accept-Encoding=[gzip, deflate], Origin=[http://0.0.0.0:3000], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36], Connection=[keep-alive], Content-Length=[40], Content-Type=[application/transit+json], Cookie=[JSESSIONID=_JYId6ygDC-bQFSFz2DyJ6e83_vdLUb5aJB5qscn], Referer=[http://0.0.0.0:3000/], Host=[0.0.0.0:3000]} response {Server=[undertow], X-XSS-Protection=[1; mode=block], X-Content-Type-Options=[nosniff], X-Frame-Options=[SAMEORIGIN], Content-Type=[application/octet-stream]}} 
+java.lang.IllegalStateException: Can't coerce body of type class java.lang.Boolean
+	at immutant.web.internal.ring$eval30477$fn__30478.invoke(ring.clj:120) ~[na:na]
+	at clojure.lang.MultiFn.invoke(MultiFn.java:238) ~[clojure-1.9.0.jar:na]
+	at immutant.web.internal.undertow$eval35350$fn__35388$action__35389.invoke(undertow.clj:159) ~[na:na]
+	at immutant.web.internal.undertow$eval35350$fn__35388.invoke(undertow.clj:172) ~[na:na]
+	at immutant.web.internal.ring$eval30413$fn__30436$G__30402__30447.invoke(ring.clj:106) ~[na:na]
+	at immutant.web.internal.ring$write_response.invokeStatic(ring.clj:164) ~[na:na]
+	at immutant.web.internal.ring$write_response.invoke(ring.clj:157) ~[na:na]
+	at immutant.web.internal.undertow$create_http_handler$reify__35428$fn__35429.invoke(undertow.clj:241) ~[na:na]
+	at immutant.web.internal.ring$handle_write_error.invokeStatic(ring.clj:155) ~[na:na]
+	at immutant.web.internal.ring$handle_write_error.invoke(ring.clj:142) ~[na:na]
+	at immutant.web.internal.undertow$create_http_handler$reify__35428.handleRequest(undertow.clj:240) ~[na:na]
+	at org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:109) ~[wunderboss-web-undertow-0.13.1.jar:na]
+	at io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:211) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:809) ~[undertow-core-1.4.14.Final.jar:1.4.14.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_181]
+2018-11-06 20:37:32,827 [XNIO-1 task-8] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-06 20:37:32,829 [XNIO-1 task-8] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-06 20:37:33,003 [XNIO-1 task-8] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "erdfh", :str2 "fghhg"} 
+2018-11-06 20:39:12,467 [XNIO-1 task-9] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-06 20:39:12,469 [XNIO-1 task-9] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-06 20:39:20,027 [XNIO-1 task-4] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "dfgdfg", :str2 "dfgdfg"} 
+2018-11-06 20:39:55,050 [XNIO-1 task-30] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "xcvcxvcxv", :str2 "cxvcxv"} 
+2018-11-06 20:40:01,099 [XNIO-1 task-7] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "xcvcxvcxv", :str2 "cxvcxvoo"} 

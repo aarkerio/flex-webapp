@@ -10,7 +10,9 @@
 
 (enable-console-print!)
 
-(println "I'm in the core aka home module!")
+(println "I'm in the core file!")
+
+;; (events/listen (gdom/getElement "button-chk") EventType.CLICK send-data)
 
 ;; Ajax handlers
 (defn error-handler [{:keys [status status-text]}]
@@ -24,14 +26,20 @@
     (style/showElement div-message true)))
 
 (defn send-data []
-  (let [str1    (.-value (gdom/getElement "json-field"))
-        str2    (.-value (gdom/getElement "upload-id"))]
+  (.log js/console (str ">>> Send Data :::  #####  >>>>> "))
+  (let [str1    (.-value (gdom/getElement "str1"))
+        str2    (.-value (gdom/getElement "str2"))]
     (POST "/api/v1/check"
         {:params {:str1  str1
                   :str2  str2}
          :handler set-message
          :error-handler error-handler})))
 
-(events/listen (gdom/getElement "button-chk")
-               EventType.CLICK
-               send-data)
+(defn- load-form []
+  (when-let [bform (gdom/getElement "button-chk")]
+    (events/listen bform EventType.CLICK send-data)))
+
+(defn ^:export init! []
+  (.log js/console (str ">>> VALUE      IIMMMMMM !!!!>>>>> " ))
+  (load-form))
+
