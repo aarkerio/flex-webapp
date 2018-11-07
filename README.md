@@ -6,9 +6,13 @@ You will need [Leiningen][1] 2.0 or above installed.
 
 [1]: https://github.com/technomancy/leiningen
 
+## Install
+
+    git clone git@github.com:aarkerio/flex-webapp.git && cd flex-webapp
+
 ## Running
 
-To start a web server for the application, run:
+Start the web server:
 
     lein run
 
