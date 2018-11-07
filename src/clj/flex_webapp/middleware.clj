@@ -4,7 +4,7 @@
             [cognitect.transit :as transit]
             [clojure.tools.logging :as log]
             [flex-webapp.layout :refer [error-page]]
-            ;; [ring.middleware.anti-forgery :refer [wrap-anti-forgery]]
+            [ring.middleware.anti-forgery :refer [wrap-anti-forgery]]
             [ring.middleware.webjars :refer [wrap-webjars]]
             [flex-webapp.middleware.formats :as formats]
             [muuntaja.middleware :refer [wrap-format wrap-params]]
@@ -12,7 +12,7 @@
             [ring.middleware.flash :refer [wrap-flash]]
             [immutant.web.middleware :refer [wrap-session]]
             [ring.middleware.defaults :refer [site-defaults wrap-defaults]])
-  (:import 
+  (:import
            [org.joda.time ReadableInstant]))
 
 (defn wrap-internal-error [handler]

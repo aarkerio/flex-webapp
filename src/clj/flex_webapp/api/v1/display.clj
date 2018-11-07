@@ -6,7 +6,6 @@
 (defn check
   "POST /api/v1/check"
   [params]
-  (log/info (str ">>> PARAM >>>>> " params))
   (let [str1      (:str1 params)
         str2      (:str2 params)]
     (response/ok {:msg (c/scramble? str1 str2)})))
