@@ -19,3 +19,34 @@
 2018-11-07 11:09:10,958 [XNIO-1 task-5] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "345345", :str2 "345345"} 
 2018-11-07 11:09:13,284 [XNIO-1 task-29] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "345345", :str2 "345345"} 
 2018-11-07 11:09:30,712 [XNIO-1 task-19] INFO  flex-webapp.api.v1.display - >>> PARAM >>>>> {:str1 "345345", :str2 "345345"} 
+2018-11-07 11:12:12,923 [XNIO-1 task-22] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-07 11:12:12,930 [XNIO-1 task-22] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-07 11:12:21,839 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 11:15:33,545 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 11:22:21,480 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 11:26:06,290 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 11:43:56,214 [XNIO-1 task-1] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-07 11:43:56,215 [XNIO-1 task-1] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-07 11:45:11,045 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 11:52:55,736 [XNIO-1 task-21] INFO  flex-webapp.env - 
+-=[flex-webapp has shut down successfully]=- 
+2018-11-07 11:52:55,738 [XNIO-1 task-21] INFO  flex-webapp.env - 
+-=[flex-webapp started successfully using the development profile]=- 
+2018-11-07 11:53:04,042 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 11:55:51,720 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 11:58:39,217 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:07:09,821 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:13:06,952 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:18:03,556 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:20:51,737 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:26:57,211 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:31:21,810 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:31:28,935 [main] INFO  flex-webapp.test.handler - >>> BOODY >>>>> {:msg true} 
+2018-11-07 12:34:22,965 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:34:31,096 [main] INFO  flex-webapp.test.handler - >>> BOODY >>>>> {:msg true} 
+2018-11-07 12:36:51,660 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2018-11-07 12:38:41,213 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 

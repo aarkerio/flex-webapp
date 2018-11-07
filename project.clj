@@ -41,7 +41,8 @@
   :main ^:skip-aot flex-webapp.core
 
   :plugins [[lein-cljsbuild "1.1.7"]
-            [lein-immutant "2.1.0"]]
+            [lein-immutant "2.1.0"]
+            [com.jakemccrary/lein-test-refresh "0.23.0"]]  ;; this should go in a dev profile
   :clean-targets ^{:protect false}
   [:target-path [:cljsbuild :builds :app :compiler :output-dir] [:cljsbuild :builds :app :compiler :output-to]]
   :figwheel
@@ -49,9 +50,7 @@
    :server-logfile "log/figwheel-logfile.log"
    :nrepl-port 7002
    :css-dirs ["resources/public/css"]
-   :nrepl-middleware
-   [cider/wrap-cljs-repl cider.piggieback/wrap-cljs-repl]}
-  
+   :nrepl-middleware [cider/wrap-cljs-repl cider.piggieback/wrap-cljs-repl]}
 
   :profiles
   {:uberjar {:omit-source true

@@ -12,3 +12,4 @@ pom.xml.asc
 resources/public/js/out/
 out/
 log/
+.rebel_readline_history

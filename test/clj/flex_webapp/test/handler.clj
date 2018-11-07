@@ -1,37 +1,34 @@
 (ns flex-webapp.test.handler
   (:require [cheshire.core :as cheshire]
             [clojure.test :refer :all]
-            [ring.mock.request :refer :all]
-            [flex-webapp.handler :refer :all]
+            [clojure.tools.logging :as log]
+            [flex-webapp.core :as fc]
+            [flex-webapp.routes.home :as fh]
+            [flex-webapp.lib.common :as com]
             [flex-webapp.middleware.formats :as formats]
-            [muuntaja.core :as m]
-            [mount.core :as mount]))
+            [ring.mock.request :as mock]))
 
-(defn parse-json [body]
-  (m/decode formats/instance "application/json" body))
+(deftest test-function
+  (testing "scramble function"
+    (is (= true  (com/scramble? "rekqodlw" "world")))
+    (is (= true  (com/scramble? "cedewaraaossoqqyt" "codewars")))
+    (is (= false (com/scramble? "katas" "steak")))
+    (is (= true  (com/scramble? "nacisnegxamddmtimajsrmete" "argentina")))
+    (is (= false (com/scramble? "grcoemtwYYYtj" "ios")))))
 
-(use-fixtures
-  :once
-  (fn [f]
-    (mount/start #'flex-webapp.config/env
-                 #'flex-webapp.handler/app)
-    (f)))
+(defn test-request [resource web-app & params]
+  (web-app {:request-method :get :uri resource :params params}))
 
-(deftest test-app
-  (testing "main route"
-    (let [response (app (request :get "/"))]
-      (is (= 200 (:status response)))))
+(deftest search-result
+  (testing "The index page"
+    (is (= 200
+        (:status (fh/home-routes (mock/request :get "/")))))))
 
-  (testing "not-found route"
-    (let [response (app (request :get "/invalid"))]
-      (is (= 404 (:status response))))))
+(deftest post-api-test
+   (testing "Test POST request to /api/v1/check returns expected response"
+     (let [response (fh/home-routes (mock/request :post "/api/v1/check" {"str1" "cedewaraaossoqqyt" "str2" "codewars"}))
+           body     (:body response)]
+       (is (= (:status response) 200))
+       (is (= (:msg body) true)))))
 
-(defn parse-body [body]
-  (cheshire/parse-string (slurp body) true))
 
-(deftest a-test
-  (testing "Test POST request to /api/v1/check returns expected response"
-    (let [response (app (-> (mock/request :post  "/api/v1/check?str1=1&str2=2")))
-          body     (parse-body (:body response))]
-      (is (= (:status response) 200))
-      (is (= (:result body) true)))))
