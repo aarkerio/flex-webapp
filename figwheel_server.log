@@ -1,0 +1,279 @@
+Compiling build :app to "main.js" from ["src/cljs"]...
+[31mFailed to compile build :app from ["src/cljs"] in 1.05 seconds.[0m
+[36m----  Could not Analyze  src/cljs/flex_webapp/core.cljs   line:15  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [36m13[0m  [36m(println "I'm in the core aka home module!")[0m
+  [36m14[0m  [36m[0m
+  [33m15[0m  [1m(defn main)[0m
+  [0m  [0m  [33m^--- Parameter declaration missing[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(defn export-json [][0m
+  [36m18[0m  [36m  (let [json       (.-value (gdom/getElement "json-field"))[0m
+
+[36m----  Analysis Error : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+Compiling build :app to "main.js" from ["src/cljs"]...
+[31mFailed to compile build :app from ["src/cljs"] in 0.857 seconds.[0m
+[36m----  Could not Analyze  src/cljs/flex_webapp/core.cljs   line:15  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [36m13[0m  [36m(println "I'm in the core aka home module!")[0m
+  [36m14[0m  [36m[0m
+  [33m15[0m  [1m(defn main)[0m
+  [0m  [0m  [33m^--- Parameter declaration missing[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(defn export-json [][0m
+  [36m18[0m  [36m  (let [json       (.-value (gdom/getElement "json-field"))[0m
+
+[36m----  Analysis Error : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+Compiling build :app to "main.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:23  column:19  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/set-message[0m
+
+  [36m19[0m  [36m(POST "/admin/uploads/export"[0m
+  [36m20[0m  [36m    {:params {:body  json[0m
+  [36m21[0m  [36m              :id    id}[0m
+  [36m22[0m  [36m     :headers {"x-csrf-token" csrf-field}[0m
+  [33m23[0m  [1m     :handler set-message[0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var flex-webapp.core/set-message[0m
+  [36m24[0m  [36m     :error-handler error-handler})))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:24  column:25  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/error-handler[0m
+
+  [36m20[0m  [36m{:params {:body  json[0m
+  [36m21[0m  [36m          :id    id}[0m
+  [36m22[0m  [36m :headers {"x-csrf-token" csrf-field}[0m
+  [36m23[0m  [36m :handler set-message[0m
+  [33m24[0m  [1m :error-handler error-handler})))[0m
+  [0m  [0m  [33m                ^--- Use of undeclared Var flex-webapp.core/error-handler[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "main.js" in 2.252 seconds.[0m
+notifying browser that file changed:  main.js
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/flex_webapp/core.js
+Compiling build :app to "resources/public/js/main.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:31  column:19  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/set-message[0m
+
+  [36m27[0m  [36m(POST "/admin/uploads/export"[0m
+  [36m28[0m  [36m    {:params {:body  json[0m
+  [36m29[0m  [36m              :id    id}[0m
+  [36m30[0m  [36m     :headers {"x-csrf-token" csrf-field}[0m
+  [33m31[0m  [1m     :handler set-message[0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var flex-webapp.core/set-message[0m
+  [36m32[0m  [36m     :error-handler error-handler})))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "resources/public/js/main.js" in 2.294 seconds.[0m
+notifying browser that file changed:  resources/public/js/main.js
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/flex_webapp/core.js
+Compiling build :app to "resources/public/js/main.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:30  column:19  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/set-message[0m
+
+  [36m26[0m  [36m(POST "/admin/uploads/export"[0m
+  [36m27[0m  [36m    {:params {:body  json[0m
+  [36m28[0m  [36m              :id    id}[0m
+  [36m29[0m  [36m     :headers {"x-csrf-token" csrf-field}[0m
+  [33m30[0m  [1m     :handler set-message[0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var flex-webapp.core/set-message[0m
+  [36m31[0m  [36m     :error-handler error-handler})))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "resources/public/js/main.js" in 2.207 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/flex_webapp/core.js
+Compiling build :app to "resources/public/js/main.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:27  column:26  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/json[0m
+
+  [36m23[0m  [36m(let [str1       (.-value (gdom/getElement "json-field"))[0m
+  [36m24[0m  [36m      str         (.-value (gdom/getElement "upload-id"))[0m
+  [36m25[0m  [36m      csrf-field (.-value (gdom/getElement "__anti-forgery-token"))][0m
+  [36m26[0m  [36m  (POST "/admin/uploads/export"[0m
+  [33m27[0m  [1m      {:params {:body  json[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var flex-webapp.core/json[0m
+  [36m28[0m  [36m                :id    id}[0m
+  [36m29[0m  [36m       :headers {"x-csrf-token" csrf-field}[0m
+  [36m30[0m  [36m       :handler set-message[0m
+  [36m31[0m  [36m       :error-handler error-handler})))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:28  column:26  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/id[0m
+
+  [36m24[0m  [36m        str         (.-value (gdom/getElement "upload-id"))[0m
+  [36m25[0m  [36m        csrf-field (.-value (gdom/getElement "__anti-forgery-token"))][0m
+  [36m26[0m  [36m    (POST "/admin/uploads/export"[0m
+  [36m27[0m  [36m        {:params {:body  json[0m
+  [33m28[0m  [1m                  :id    id}[0m
+  [0m  [0m  [33m                         ^--- Use of undeclared Var flex-webapp.core/id[0m
+  [36m29[0m  [36m         :headers {"x-csrf-token" csrf-field}[0m
+  [36m30[0m  [36m         :handler set-message[0m
+  [36m31[0m  [36m         :error-handler error-handler})))[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk") EventType.CLICK[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:30  column:19  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/set-message[0m
+
+  [36m26[0m  [36m    (POST "/admin/uploads/export"[0m
+  [36m27[0m  [36m        {:params {:body  json[0m
+  [36m28[0m  [36m                  :id    id}[0m
+  [36m29[0m  [36m         :headers {"x-csrf-token" csrf-field}[0m
+  [33m30[0m  [1m         :handler set-message[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var flex-webapp.core/set-message[0m
+  [36m31[0m  [36m         :error-handler error-handler})))[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk") EventType.CLICK[0m
+  [36m34[0m  [36m                 (fn [e][0m
+  [36m35[0m  [36m                   (let [value (.-value (gdom/getElement "insert-question"))][0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:36  column:23  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/insert-text[0m
+
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk") EventType.CLICK[0m
+  [36m34[0m  [36m                 (fn [e][0m
+  [36m35[0m  [36m                   (let [value (.-value (gdom/getElement "insert-question"))][0m
+  [33m36[0m  [1m                     (insert-text (js/parseInt value)))))[0m
+  [0m  [0m  [33m                      ^--- Use of undeclared Var flex-webapp.core/insert-text[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "resources/public/js/main.js" in 2.191 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/flex_webapp/core.js
+Compiling build :app to "resources/public/js/main.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:27  column:26  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/json[0m
+
+  [36m23[0m  [36m(let [str1       (.-value (gdom/getElement "json-field"))[0m
+  [36m24[0m  [36m      str         (.-value (gdom/getElement "upload-id"))[0m
+  [36m25[0m  [36m      csrf-field (.-value (gdom/getElement "__anti-forgery-token"))][0m
+  [36m26[0m  [36m  (POST "/admin/uploads/export"[0m
+  [33m27[0m  [1m      {:params {:body  json[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var flex-webapp.core/json[0m
+  [36m28[0m  [36m                :id    id}[0m
+  [36m29[0m  [36m       :headers {"x-csrf-token" csrf-field}[0m
+  [36m30[0m  [36m       :handler set-message[0m
+  [36m31[0m  [36m       :error-handler error-handler})))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:28  column:26  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/id[0m
+
+  [36m24[0m  [36m        str         (.-value (gdom/getElement "upload-id"))[0m
+  [36m25[0m  [36m        csrf-field (.-value (gdom/getElement "__anti-forgery-token"))][0m
+  [36m26[0m  [36m    (POST "/admin/uploads/export"[0m
+  [36m27[0m  [36m        {:params {:body  json[0m
+  [33m28[0m  [1m                  :id    id}[0m
+  [0m  [0m  [33m                         ^--- Use of undeclared Var flex-webapp.core/id[0m
+  [36m29[0m  [36m         :headers {"x-csrf-token" csrf-field}[0m
+  [36m30[0m  [36m         :handler set-message[0m
+  [36m31[0m  [36m         :error-handler error-handler})))[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk") EventType.CLICK[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:30  column:19  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/set-message[0m
+
+  [36m26[0m  [36m    (POST "/admin/uploads/export"[0m
+  [36m27[0m  [36m        {:params {:body  json[0m
+  [36m28[0m  [36m                  :id    id}[0m
+  [36m29[0m  [36m         :headers {"x-csrf-token" csrf-field}[0m
+  [33m30[0m  [1m         :handler set-message[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var flex-webapp.core/set-message[0m
+  [36m31[0m  [36m         :error-handler error-handler})))[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk") EventType.CLICK[0m
+  [36m34[0m  [36m                 (fn [e][0m
+  [36m35[0m  [36m                   (let [str1 (.-value (gdom/getElement "insert-question"))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:37  column:22  ----[0m
+
+  [1mWrong number of args (2) passed to flex-webapp.core/send-data[0m
+
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk") EventType.CLICK[0m
+  [36m34[0m  [36m                 (fn [e][0m
+  [36m35[0m  [36m                   (let [str1 (.-value (gdom/getElement "insert-question"))[0m
+  [36m36[0m  [36m                         str2 (.-value (gdom/getElement "insert-question"))][0m
+  [33m37[0m  [1m                     (send-data str1 str2))))[0m
+  [0m  [0m  [33m                     ^--- Wrong number of args (2) passed to flex-webapp.core/send-data[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "resources/public/js/main.js" in 2.182 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/flex_webapp/core.js
+Compiling build :app to "resources/public/js/main.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:27  column:26  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/json[0m
+
+  [36m23[0m  [36m(let [str1       (.-value (gdom/getElement "json-field"))[0m
+  [36m24[0m  [36m      str         (.-value (gdom/getElement "upload-id"))[0m
+  [36m25[0m  [36m      csrf-field (.-value (gdom/getElement "__anti-forgery-token"))][0m
+  [36m26[0m  [36m  (POST "/admin/uploads/export"[0m
+  [33m27[0m  [1m      {:params {:body  json[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var flex-webapp.core/json[0m
+  [36m28[0m  [36m                :id    id}[0m
+  [36m29[0m  [36m       :headers {"x-csrf-token" csrf-field}[0m
+  [36m30[0m  [36m       :handler set-message[0m
+  [36m31[0m  [36m       :error-handler error-handler})))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:28  column:26  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/id[0m
+
+  [36m24[0m  [36m        str         (.-value (gdom/getElement "upload-id"))[0m
+  [36m25[0m  [36m        csrf-field (.-value (gdom/getElement "__anti-forgery-token"))][0m
+  [36m26[0m  [36m    (POST "/admin/uploads/export"[0m
+  [36m27[0m  [36m        {:params {:body  json[0m
+  [33m28[0m  [1m                  :id    id}[0m
+  [0m  [0m  [33m                         ^--- Use of undeclared Var flex-webapp.core/id[0m
+  [36m29[0m  [36m         :headers {"x-csrf-token" csrf-field}[0m
+  [36m30[0m  [36m         :handler set-message[0m
+  [36m31[0m  [36m         :error-handler error-handler})))[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk")[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/flex_webapp/core.cljs   line:30  column:19  ----[0m
+
+  [1mUse of undeclared Var flex-webapp.core/set-message[0m
+
+  [36m26[0m  [36m    (POST "/admin/uploads/export"[0m
+  [36m27[0m  [36m        {:params {:body  json[0m
+  [36m28[0m  [36m                  :id    id}[0m
+  [36m29[0m  [36m         :headers {"x-csrf-token" csrf-field}[0m
+  [33m30[0m  [1m         :handler set-message[0m
+  [0m  [0m  [33m                  ^--- Use of undeclared Var flex-webapp.core/set-message[0m
+  [36m31[0m  [36m         :error-handler error-handler})))[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(events/listen (gdom/getElement "button-chk")[0m
+  [36m34[0m  [36m               EventType.CLICK[0m
+  [36m35[0m  [36m               send-data)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/flex_webapp/core.cljs  ----[0m
+[32mSuccessfully compiled build :app to "resources/public/js/main.js" in 2.211 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/flex_webapp/core.js
+Compiling build :app to "resources/public/js/main.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :app to "resources/public/js/main.js" in 2.06 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/flex_webapp/core.js

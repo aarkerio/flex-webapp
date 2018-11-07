@@ -1,0 +1,1 @@
+{:optimizations :none, :verbose true, :source-map true, :output-to "resources/public/js/main.js", :pretty-print true, :output-dir "resources/public/js/out", :source-map-timestamp true, :preloads [figwheel.preload], :external-config #:figwheel{:config {:on-jsload "flex-webapp.core/main", :build-id "app", :websocket-url "ws://localhost:3449/figwheel-ws"}}}
