@@ -29,6 +29,7 @@
                              :figwheel {:on-jsload "flex-webapp.core/main"}
                              :compiler {:optimizations :none
                                         :verbose       true
+                                        :output-dir    "resources/public/js/out"
                                         :source-map    true
                                         :output-to     "resources/public/js/main.js"
                                         :pretty-print  true}
